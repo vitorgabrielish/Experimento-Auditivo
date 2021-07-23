@@ -1,10 +1,9 @@
 //Início do Script
-
 //Inativa os prefixos do PennController (sem esse comando os códigos não funcionam)
 PennController.ResetPrefix(null);
 PennController.DebugOff();
 //Define a sequência de telas do experimento
-Sequence("consent","inicial", "instr.treino", ("treino"), "instr.exp" , randomize("experimento"), SendResults(), "final");
+Sequence("consent","inicial", "instr.treino", ("Treino"), "instr.exp" , randomize("experimento"), SendResults(), "final");
 
 //Cria um cabeçalho. Todos os comandos dentro do cabeçalho serão rodados automaticamente antes de cada "trial"
 Header(
@@ -25,8 +24,9 @@ Header(
             .center()
             .print()
             .wait()
-         ,         
+         
 )
+
 
 
 //Cria uma nova tela - Tela de coleta de dados do participante
@@ -35,7 +35,7 @@ newTrial("consent",
 //Cria o texto "Bem-Vindos!"
          newText("<p>Bem-Vindos!</p>")
          ,
-         newText("<p>Você foi convidado a participar de uma pesquisa sobre como as pessoas compreendem sentenças. Este estudo está sendo conduzido pelo LAPEX -<br> Laboratório de Psicolinguística Experimental, da UFRJ. </p><p>Você é apto a participar deste experimento porque você é maior de 18 anos, é falante nativo de Português do Brasil, fluente neste idioma (você adquiriu o Português <br> do Brasil durante a infância e tem o Português do Brasil como sua primeira língua). </b></p><p> Qualquer informação pessoal que você forneça neste experimento será anônima e mantida em sigilo. Você pode desistir de participar do estudo<br> a qualquer momento sem penalização. No entanto, é importante que você faça o experimento até o final para obtenção das suas horas<br> complementares (AACC). Ao decidir começar o teste, certifique-se que tem boa conexão com a internet e que você está disponível para<br> completar o estudo de uma só vez.</p><p> Se você tiver alguma dúvida sobre esta pesquisa ou se você deseja receber os resultados deste estudo quando estiver finalizado, por favor,<br> entre em contato com o doutoranda Vitor Caldas, através do e-mail vitorgabrielish@gmail.com</p><p><b> Este teste dura aproximadamente 15 minutos.</p><p> Clicando em EU CONCORDO, você concorda que é maior de idade, que é falante nativo de Português do Brasil, que você é fluente em Português<br> do Brasil e que você entendeu estas instruções e condições de participação.</p>")
+         newText("<p>Você foi convidado a participar de uma pesquisa sobre como as pessoas compreendem sentenças. Este estudo está sendo conduzido pelo LAPEX -<br> Laboratório de Psicolinguística Experimental, da UFRJ. </p><p>Você é apto a participar deste experimento porque você é maior de 18 anos, é falante nativo de Português do Brasil, fluente neste idioma (você adquiriu o português brasileiro durante a infância e tem o português brasileiro como sua primeira língua). </b></p><p> Qualquer informação pessoal que você forneça neste experimento será anônima e mantida em sigilo. Você pode desistir de participar do estudo<br> a qualquer momento sem penalização. No entanto, é importante que você faça o experimento até o final para obtenção das suas horas<br> complementares (AACC). Ao decidir começar o teste, certifique-se que tem boa conexão com a internet e que você está disponível para<br> completar o estudo de uma só vez.</p><p> Se você tiver alguma dúvida sobre esta pesquisa ou se você deseja receber os resultados deste estudo quando estiver finalizado, por favor,<br> entre em contato com o doutorando Vitor Caldas, através do e-mail vitorgabrielish@gmail.com</p><p><b> Este teste dura aproximadamente 15 minutos.</p><p> Clicando em EU CONCORDO, você concorda que é maior de idade, que é falante nativo de Português do Brasil, que você é fluente em Português<br> do Brasil e que você entendeu estas instruções e condições de participação.</p>")
          ,
           newButton("EU CONCORDO")
         .css("font-size","1.2em")
@@ -123,6 +123,8 @@ newText("<p>Neste experimento, você irá ouvir algumas frases e ler uma afirma�
 .log( "EMAIL" , getVar("EMAIL") )
 .log( "CursoPeriodo" , getVar("CursoPeriodo") )
 
+AddHost("https://raw.githubusercontent.com/vitorgabrielish/Experimento-Auditivo/main/chunk_includes/");
+
 //Nova tela - Tela de instruções do treino
 newTrial("instr.treino",
            defaultText
@@ -156,11 +158,11 @@ newTrial("instr.treino",
 )
 
 //Indica o uso da tabela "treino_script_auditivo.csv"
-Template("treino.csv",
+Template("Treino.csv",
 // "variable" vai automaticamente apontar para cada linha da tabela "tabela_script_auditivo.csv"
-    variable => newTrial( "treino",
+       variable => newTrial( "Treino",
 //"variable" aponta para todas as linhas da coluna "AudioExperimento" da tabela "tabela_script_auditivo.csv" e toca o audio referente a elas
-        newAudio("AudioSentenceTreino", variable.AudioSentenceTreino)
+               newAudio("AudioSentenceTreino", variable.AudioSentenceTreino)
             .play()
         ,
 //Exibe na tela a imagem "alto_falante_icone.png"
@@ -171,9 +173,10 @@ Template("treino.csv",
        
         ,
 //Cria um botão nomeado "Próximo", envia para o arquivo "results" a informação de quando ele foi pressionado e remove ele da tela
-        newButton("Próximo")
+        newKey(" ")
             .log()
-            .remove()
+            .wait()
+            
         ,
 //Remove a imagem "alto_falante_icone.png" 
         getImage("altofalante.png")
@@ -181,11 +184,25 @@ Template("treino.csv",
         ,
         //Cria um novo texto nomeado "A" e "variable" aponta para todas as linhas da coluna "SentencaA" e imprime o texto presente nelas 
         newText("FraseT",variable.FraseTreino)
+        .center()
+        .css("font-size","2.2em")
         ,
        
         //Possibilita a seleção dos textos "A" e "B" através do mouse ou das teclas "A" e "B". Também envia para o arquivo "result" qual texto foi selecionado
-        newSelector()
-            .keys("S","N")
+        newKey("SN")
+            .log()
+            .wait()
+            ,
+            getText("FraseT")
+            .remove()
+            ,
+            newText("Aperte espaço")
+        .center()
+        .css("font-size","2.2em")
+        ,
+       
+        //Possibilita a seleção dos textos "A" e "B" através do mouse ou das teclas "A" e "B". Também envia para o arquivo "result" qual texto foi selecionado
+        newKey(" ")
             .log()
             .wait()
     )
@@ -232,9 +249,9 @@ Template("tabela.csv",
        
         ,
 //Cria um botão nomeado "Próximo", envia para o arquivo "results" a informação de quando ele foi pressionado e remove ele da tela
-        newButton("Próximo")
+        newKey(" ")
             .log()
-            .remove()
+            .wait()
         ,
 //Remove a imagem "alto_falante_icone.png" 
         getImage("altofalante.png")
@@ -242,11 +259,26 @@ Template("tabela.csv",
         ,
         //Cria um novo texto nomeado "A" e "variable" aponta para todas as linhas da coluna "SentencaA" e imprime o texto presente nelas 
         newText("FraseExp",variable.Frase)
+        .center()
+        .css("font-size","2.2em")
         ,
        
         //Possibilita a seleção dos textos "A" e "B" através do mouse ou das teclas "A" e "B". Também envia para o arquivo "result" qual texto foi selecionado
-        newSelector()
-            .keys("S","N")
+        newKey("SN")
+            .log()
+            .wait()
+            
+            ,
+            getText("FraseExp")
+            .remove()
+            ,
+            newText("Aperte espaço")
+        .center()
+        .css("font-size","2.2em")
+        ,
+        
+        //Possibilita a seleção dos textos "A" e "B" através do mouse ou das teclas "A" e "B". Também envia para o arquivo "result" qual texto foi selecionado
+        newKey(" ")
             .log()
             .wait()
     )
@@ -270,5 +302,3 @@ newTrial( "Final" ,
 //Ajeita a barra de pogresso para que ela fique completa
 .setOption("countsForProgressBar",false);
 //Fim do Script
-
-
