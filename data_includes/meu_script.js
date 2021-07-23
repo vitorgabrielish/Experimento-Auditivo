@@ -195,8 +195,68 @@ Template("treino.csv",
     .log("Condition", variable.Condition)
     .log("Group", variable.Group)
     .log("Type", variable.Type)
-);
+)
+//Nova Tela - Tela de instruções do experimento
+newTrial("instr.exp",
+    defaultText
+        .css("font-size","1.2em")
+        .print()
+    ,
+    newText("<p>Agora que você praticou, vamos começar o experimento!</p>")
+    ,
+    newText("<p>A tarefa durará em torno de 15 minutos. Certifique-se que você esteja em um local tranquilo e silencioso, para que você não seja interrompido.</p>")
+    ,
+    newText("<p>Clique em COMEÇAR quando você estiver pronto para começar o experimento.</p>")
+    ,
+    newButton("COMEÇAR")
+        .css("font-size","1.2em")
+        .print()
+        .center()
+        .log()
+        .wait()
+    )
 
+//Indica o uso da tabela "treino_script_auditivo.csv"
+Template("tabela.csv",
+// "variable" vai automaticamente apontar para cada linha da tabela "tabela_script_auditivo.csv"
+    variable => newTrial( "experimento",
+//"variable" aponta para todas as linhas da coluna "AudioExperimento" da tabela "tabela_script_auditivo.csv" e toca o audio referente a elas
+        newAudio("AudioSentence", variable.AudioSentence)
+            .play()
+        ,
+//Exibe na tela a imagem "alto_falante_icone.png"
+        newImage("altofalante.png")
+            .size( 90 , 90 )
+            .print()
+            .center()
+       
+        ,
+//Cria um botão nomeado "Próximo", envia para o arquivo "results" a informação de quando ele foi pressionado e remove ele da tela
+        newButton("Próximo")
+            .log()
+            .remove()
+        ,
+//Remove a imagem "alto_falante_icone.png" 
+        getImage("altofalante.png")
+            .remove()
+        ,
+        //Cria um novo texto nomeado "A" e "variable" aponta para todas as linhas da coluna "SentencaA" e imprime o texto presente nelas 
+        newText("FraseExp",variable.Frase)
+        ,
+       
+        //Possibilita a seleção dos textos "A" e "B" através do mouse ou das teclas "A" e "B". Também envia para o arquivo "result" qual texto foi selecionado
+        newSelector()
+            .keys("S","N")
+            .log()
+            .wait()
+    )
+         
+    //Envia para o arquivo "results" o conteúdo da coluna "Group" 
+    .log("Item", variable.Item)
+    .log("Condition", variable.Condition)
+    .log("Group", variable.Group)
+    .log("Type", variable.Type)
+)
 //Nova Tela - Tela final    
 newTrial( "Final" ,
     newText("<p> O experimento foi concluído. Obrigada pela participação!</p>")
