@@ -1,0 +1,4 @@
+AudioSentenceTreino;FraseTreino;Item;Condition;Group;Type
+DIST1.wav;O aluno tinha todos os livros.;25;DIST1;T;treino
+DIST2.wav;A secretária escreveu a mensagem.;26;DIST2;T;treino
+DIST3.wav;O contador disse que alguém faltou.;27;DIST3;T;treino

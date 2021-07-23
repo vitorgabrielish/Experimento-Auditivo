@@ -1,0 +1,337 @@
+AudioSentence;Frase;Item;Condition;Group;Type
+SS1.wav;O senador atacava o repórter.;1;SS1;A;Experimental
+OS2.wav;A diretora visitava a atriz.;2;OS2;A;Experimental
+SA3.wav;A cantora adorava o maestro.;3;SA3;A;Experimental
+OA4.wav;A vizinha procurava a criança.;4;OA4;A;Experimental
+SB5.wav;O caçador observava o guarda.;5;SB5;A;Experimental
+OB6.wav;O fazendeiro saudava o camponês.;6;OB6;A;Experimental
+SS7.wav;O dentista perturbava o cliente.;7;SS7;A;Experimental
+OS8.wav;O agente confrontava o detento.;8;OS8;A;Experimental
+SA9.wav;O editor detestava a modelo.;9;SA9;A;Experimental
+OA10.wav;O pedreiro olhava o encanador.;10;OA10;A;Experimental
+SB11.wav;O escritor subornava o músico.;11;SB11;A;Experimental
+OB12.wav;A cozinheira namorava o garçom.;12;OB12;A;Experimental
+SS13.wav;O zagueiro odiava o goleiro.;13;SS13;A;Experimental
+OS14.wav;O hóspede insultava o gerente.;14;OS14;A;Experimental
+SA15.wav;O técnico xingava o jogador.;15;SA15;A;Experimental
+OA16.wav;O ladrão intimidava o porteiro.;16;OA16;A;Experimental
+SB17.wav;O paciente chamava o médico.;17;SB17;A;Experimental
+OB18.wav;O pescador ajudava o feirante.;18;OB18;A;Experimental
+SS19.wav;O passageiro puxava o piloto.;19;SS19;A;Experimental
+OS20.wav;O promotor irritava o banqueiro.;20;OS20;A;Experimental
+SA21.wav;O artista inspirava o produtor.;21;SA21;A;Experimental
+OA22.wav;O prefeito amava a assistente.;22;OA22;A;Experimental
+SB23.wav;O aluno criticava o professor.;23;SB23;A;Experimental
+OB24.wav;O soldado exaltava o sargento.;24;OB24;A;Experimental
+DIST1.wav;O aluno tinha todos os livros.;25;DIST1;A;Filler
+DIST2.wav;A secretária escreveu a mensagem.;26;DIST2;A;Filler
+DIST3.wav;O contador disse que alguém faltou.;27;DIST3;A;Filler
+DIST4.wav;A bolsa será cortada se o aluno reprovar todas as disciplinas.;28;DIST4;A;Filler
+DIST5.wav;O novo cozinheiro comprou feijão.;29;DIST5;A;Filler
+DIST6.wav;A aluna escreve boas redações.;30;DIST6;A;Filler
+DIST7.wav;A filha é suspeita da morte da mãe.;31;DIST7;A;Filler
+DIST8.wav;Maria costurava meias.;32;DIST8;A;Filler
+DIST9.wav;Um navio brasileiro entrava na baía.;33;DIST9;A;Filler
+DIST10.wav;A professora estava doente.;34;DIST10;A;Filler
+DIST11.wav;O locutor anunciou algo no jornal da TV.;35;DIST11;A;Filler
+DIST12.wav;O policial viu o turista ontem.;36;DIST12;A;Filler
+DIST13.wav;O aluno abraçou o amigo.;37;DIST13;A;Filler
+DIST14.wav;O professor escreveu a tese.;38;DIST14;A;Filler
+DIST15.wav;A mãe fez um bolo.;39;DIST15;A;Filler
+DIST16.wav;O professor usava o computador.;40;DIST16;A;Filler
+DIST17.wav;A atriz perdeu o prêmio.;41;DIST17;A;Filler
+DIST18.wav;Apenas a casa está à venda.;42;DIST18;A;Filler
+DIST19.wav;O ladrão catava o lixo.;43;DIST19;A;Filler
+DIST20.wav;A mulher encontrava o ator.;44;DIST20;A;Filler
+DIST21.wav;Destranca o armário de madeira.;45;DIST21;A;Filler
+DIST22.wav;Eu evito sair de casa sem documento.;46;DIST22;A;Filler
+DIST23.wav;Não gostei do assunto sobre o qual o professor falou.;47;DIST23;A;Filler
+DIST24.wav;Marina brincava no parque.;48;DIST24;A;Filler
+DIST25.wav;Marina tirou o quadro da parede.;49;DIST25;A;Filler
+DIST26.wav;O gato arranhou a mão do vizinho.;50;DIST26;A;Filler
+DIST27.wav;Apenas o diretor estava no evento.;51;DIST27;A;Filler
+DIST28.wav;O empregado sujava a janela.;52;DIST28;A;Filler
+DIST29.wav;O jogo de voleibol acabou em briga.;53;DIST29;A;Filler
+DIST30.wav;A menina pulava corda com as amigas.;54;DIST30;A;Filler
+DIST31.wav;O pastor protestante ajudou o estofador no altar.;55;DIST31;A;Filler
+DIST32.wav;Renata jogava basquete com os amigos.;56;DIST32;A;Filler
+OS1.wav;O repórter atacava o senador.;1;OS1;B;Experimental
+SA2.wav;A atriz visitava a diretora.;2;SA2;B;Experimental
+OA3.wav;O maestro adorava a cantora.;3;OA3;B;Experimental
+SB4.wav;A criança procurava a vizinha.;4;SB4;B;Experimental
+OB5.wav;O guarda observava o caçador.;5;OB5;B;Experimental
+SS6.wav;O camponês saudava o fazendeiro.;6;SS6;B;Experimental
+OS7.wav;O cliente perturbava o dentista.;7;OS7;B;Experimental
+SA8.wav;O detento confrontava o agente.;8;SA8;B;Experimental
+OA9.wav;A modelo detestava o editor.;9;OA9;B;Experimental
+SB10.wav;O encanador olhava o pedreiro.;10;SB10;B;Experimental
+OB11.wav;O músico subornava o escritor.;11;OB11;B;Experimental
+SS12.wav;O garçom namorava a cozinheira.;12;SS12;B;Experimental
+OS13.wav;O goleiro odiava o zagueiro.;13;OS13;B;Experimental
+SA14.wav;O gerente insultava o hóspede.;14;SA14;B;Experimental
+OA15.wav;O jogador xingava o técnico.;15;OA15;B;Experimental
+SB16.wav;O porteiro intimidava o ladrão.;16;SB16;B;Experimental
+OB17.wav;O médico chamava o paciente.;17;OB17;B;Experimental
+SS18.wav;O feirante ajudava o pescador.;18;SS18;B;Experimental
+OS19.wav;O piloto puxava o passageiro.;19;OS19;B;Experimental
+SA20.wav;O banqueiro irritava o promotor.;20;SA20;B;Experimental
+OA21.wav;O produtor inspirava o artista.;21;OA21;B;Experimental
+SB22.wav;A assistente amava o prefeito.;22;SB22;B;Experimental
+OB23.wav;O professor criticava o aluno.;23;OB23;B;Experimental
+SS24.wav;O sargento exaltava o soldado.;24;SS24;B;Experimental
+DIST1.wav;O aluno tinha todos os livros.;25;DIST1;B;Filler
+DIST2.wav;A secretária escreveu a mensagem.;26;DIST2;B;Filler
+DIST3.wav;O contador disse que alguém faltou.;27;DIST3;B;Filler
+DIST4.wav;A bolsa será cortada se o aluno reprovar todas as disciplinas.;28;DIST4;B;Filler
+DIST5.wav;O novo cozinheiro comprou feijão.;29;DIST5;B;Filler
+DIST6.wav;A aluna escreve boas redações.;30;DIST6;B;Filler
+DIST7.wav;A filha é suspeita da morte da mãe.;31;DIST7;B;Filler
+DIST8.wav;Maria costurava meias.;32;DIST8;B;Filler
+DIST9.wav;Um navio brasileiro entrava na baía.;33;DIST9;B;Filler
+DIST10.wav;A professora estava doente.;34;DIST10;B;Filler
+DIST11.wav;O locutor anunciou algo no jornal da TV.;35;DIST11;B;Filler
+DIST12.wav;O policial viu o turista ontem.;36;DIST12;B;Filler
+DIST13.wav;O aluno abraçou o amigo.;37;DIST13;B;Filler
+DIST14.wav;O professor escreveu a tese.;38;DIST14;B;Filler
+DIST15.wav;A mãe fez um bolo.;39;DIST15;B;Filler
+DIST16.wav;O professor usava o computador.;40;DIST16;B;Filler
+DIST17.wav;A atriz perdeu o prêmio.;41;DIST17;B;Filler
+DIST18.wav;Apenas a casa está à venda.;42;DIST18;B;Filler
+DIST19.wav;O ladrão catava o lixo.;43;DIST19;B;Filler
+DIST20.wav;A mulher encontrava o ator.;44;DIST20;B;Filler
+DIST21.wav;Destranca o armário de madeira.;45;DIST21;B;Filler
+DIST22.wav;Eu evito sair de casa sem documento.;46;DIST22;B;Filler
+DIST23.wav;Não gostei do assunto sobre o qual o professor falou.;47;DIST23;B;Filler
+DIST24.wav;Marina brincava no parque.;48;DIST24;B;Filler
+DIST25.wav;Marina tirou o quadro da parede.;49;DIST25;B;Filler
+DIST26.wav;O gato arranhou a mão do vizinho.;50;DIST26;B;Filler
+DIST27.wav;Apenas o diretor estava no evento.;51;DIST27;B;Filler
+DIST28.wav;O empregado sujava a janela.;52;DIST28;B;Filler
+DIST29.wav;O jogo de voleibol acabou em briga.;53;DIST29;B;Filler
+DIST30.wav;A menina pulava corda com as amigas.;54;DIST30;B;Filler
+DIST31.wav;O pastor protestante ajudou o estofador no altar.;55;DIST31;B;Filler
+DIST32.wav;Renata jogava basquete com os amigos.;56;DIST32;B;Filler
+SA1.wav;O senador atacava o repórter.;1;SA1;C;Experimental
+OA2.wav;A diretora visitava a atriz.;2;OA2;C;Experimental
+SB3.wav;A cantora adorava o maestro.;3;SB3;C;Experimental
+OB4.wav;A vizinha procurava a criança.;4;OB4;C;Experimental
+SS5.wav;O caçador observava o guarda.;5;SS5;C;Experimental
+OS6.wav;O fazendeiro saudava o camponês.;6;OS6;C;Experimental
+SA7.wav;O dentista perturbava o cliente.;7;SA7;C;Experimental
+OA8.wav;O agente confrontava o detento.;8;OA8;C;Experimental
+SB9.wav;O editor detestava a modelo.;9;SB9;C;Experimental
+OB10.wav;O pedreiro olhava o encanador.;10;OB10;C;Experimental
+SS11.wav;O escritor subornava o músico.;11;SS11;C;Experimental
+OS12.wav;A cozinheira namorava o garçom.;12;OS12;C;Experimental
+SA13.wav;O zagueiro odiava o goleiro.;13;SA13;C;Experimental
+OA14.wav;O hóspede insultava o gerente.;14;OA14;C;Experimental
+SB15.wav;O técnico xingava o jogador.;15;SB15;C;Experimental
+OB16.wav;O ladrão intimidava o porteiro.;16;OB16;C;Experimental
+SS17.wav;O paciente chamava o médico.;17;SS17;C;Experimental
+OS18.wav;O pescador ajudava o feirante.;18;OS18;C;Experimental
+SA19.wav;O passageiro puxava o piloto.;19;SA19;C;Experimental
+OA20.wav;O promotor irritava o banqueiro.;20;OA20;C;Experimental
+SB21.wav;O artista inspirava o produtor.;21;SB21;C;Experimental
+OB22.wav;O prefeito amava a assistente.;22;OB22;C;Experimental
+SS23.wav;O aluno criticava o professor.;23;SS23;C;Experimental
+OS24.wav;O soldado exaltava o sargento.;24;OS24;C;Experimental
+DIST1.wav;O aluno tinha todos os livros.;25;DIST1;C;Filler
+DIST2.wav;A secretária escreveu a mensagem.;26;DIST2;C;Filler
+DIST3.wav;O contador disse que alguém faltou.;27;DIST3;C;Filler
+DIST4.wav;A bolsa será cortada se o aluno reprovar todas as disciplinas.;28;DIST4;C;Filler
+DIST5.wav;O novo cozinheiro comprou feijão.;29;DIST5;C;Filler
+DIST6.wav;A aluna escreve boas redações.;30;DIST6;C;Filler
+DIST7.wav;A filha é suspeita da morte da mãe.;31;DIST7;C;Filler
+DIST8.wav;Maria costurava meias.;32;DIST8;C;Filler
+DIST9.wav;Um navio brasileiro entrava na baía.;33;DIST9;C;Filler
+DIST10.wav;A professora estava doente.;34;DIST10;C;Filler
+DIST11.wav;O locutor anunciou algo no jornal da TV.;35;DIST11;C;Filler
+DIST12.wav;O policial viu o turista ontem.;36;DIST12;C;Filler
+DIST13.wav;O aluno abraçou o amigo.;37;DIST13;C;Filler
+DIST14.wav;O professor escreveu a tese.;38;DIST14;C;Filler
+DIST15.wav;A mãe fez um bolo.;39;DIST15;C;Filler
+DIST16.wav;O professor usava o computador.;40;DIST16;C;Filler
+DIST17.wav;A atriz perdeu o prêmio.;41;DIST17;C;Filler
+DIST18.wav;Apenas a casa está à venda.;42;DIST18;C;Filler
+DIST19.wav;O ladrão catava o lixo.;43;DIST19;C;Filler
+DIST20.wav;A mulher encontrava o ator.;44;DIST20;C;Filler
+DIST21.wav;Destranca o armário de madeira.;45;DIST21;C;Filler
+DIST22.wav;Eu evito sair de casa sem documento.;46;DIST22;C;Filler
+DIST23.wav;Não gostei do assunto sobre o qual o professor falou.;47;DIST23;C;Filler
+DIST24.wav;Marina brincava no parque.;48;DIST24;C;Filler
+DIST25.wav;Marina tirou o quadro da parede.;49;DIST25;C;Filler
+DIST26.wav;O gato arranhou a mão do vizinho.;50;DIST26;C;Filler
+DIST27.wav;Apenas o diretor estava no evento.;51;DIST27;C;Filler
+DIST28.wav;O empregado sujava a janela.;52;DIST28;C;Filler
+DIST29.wav;O jogo de voleibol acabou em briga.;53;DIST29;C;Filler
+DIST30.wav;A menina pulava corda com as amigas.;54;DIST30;C;Filler
+DIST31.wav;O pastor protestante ajudou o estofador no altar.;55;DIST31;C;Filler
+DIST32.wav;Renata jogava basquete com os amigos.;56;DIST32;C;Filler
+OA1.wav;O repórter atacava o senador.;1;OA1;D;Experimental
+SB2.wav;A atriz visitava a diretora.;2;SB2;D;Experimental
+OB3.wav;O maestro adorava a cantora.;3;OB3;D;Experimental
+SS4.wav;A criança procurava a vizinha.;4;SS4;D;Experimental
+OS5.wav;O guarda observava o caçador.;5;OS5;D;Experimental
+SA6.wav;O camponês saudava o fazendeiro.;6;SA6;D;Experimental
+OA7.wav;O cliente perturbava o dentista.;7;OA7;D;Experimental
+SB8.wav;O detento confrontava o agente.;8;SB8;D;Experimental
+OB9.wav;A modelo detestava o editor.;9;OB9;D;Experimental
+SS10.wav;O encanador olhava o pedreiro.;10;SS10;D;Experimental
+OS11.wav;O músico subornava o escritor.;11;OS11;D;Experimental
+SA12.wav;O garçom namorava a cozinheira.;12;SA12;D;Experimental
+OA13.wav;O goleiro odiava o zagueiro.;13;OA13;D;Experimental
+SB14.wav;O gerente insultava o hóspede.;14;SB14;D;Experimental
+OB15.wav;O jogador xingava o técnico.;15;OB15;D;Experimental
+SS16.wav;O porteiro intimidava o ladrão.;16;SS16;D;Experimental
+OS17.wav;O médico chamava o paciente.;17;OS17;D;Experimental
+SA18.wav;O feirante ajudava o pescador.;18;SA18;D;Experimental
+OA19.wav;O piloto puxava o passageiro.;19;OA19;D;Experimental
+SB20.wav;O banqueiro irritava o promotor.;20;SB20;D;Experimental
+OB21.wav;O produtor inspirava o artista.;21;OB21;D;Experimental
+SS22.wav;A assistente amava o prefeito.;22;SS22;D;Experimental
+OS23.wav;O professor criticava o aluno.;23;OS23;D;Experimental
+SA24.wav;O sargento exaltava o soldado.;24;SA24;D;Experimental
+DIST1.wav;O aluno tinha todos os livros.;25;DIST1;D;Filler
+DIST2.wav;A secretária escreveu a mensagem.;26;DIST2;D;Filler
+DIST3.wav;O contador disse que alguém faltou.;27;DIST3;D;Filler
+DIST4.wav;A bolsa será cortada se o aluno reprovar todas as disciplinas.;28;DIST4;D;Filler
+DIST5.wav;O novo cozinheiro comprou feijão.;29;DIST5;D;Filler
+DIST6.wav;A aluna escreve boas redações.;30;DIST6;D;Filler
+DIST7.wav;A filha é suspeita da morte da mãe.;31;DIST7;D;Filler
+DIST8.wav;Maria costurava meias.;32;DIST8;D;Filler
+DIST9.wav;Um navio brasileiro entrava na baía.;33;DIST9;D;Filler
+DIST10.wav;A professora estava doente.;34;DIST10;D;Filler
+DIST11.wav;O locutor anunciou algo no jornal da TV.;35;DIST11;D;Filler
+DIST12.wav;O policial viu o turista ontem.;36;DIST12;D;Filler
+DIST13.wav;O aluno abraçou o amigo.;37;DIST13;D;Filler
+DIST14.wav;O professor escreveu a tese.;38;DIST14;D;Filler
+DIST15.wav;A mãe fez um bolo.;39;DIST15;D;Filler
+DIST16.wav;O professor usava o computador.;40;DIST16;D;Filler
+DIST17.wav;A atriz perdeu o prêmio.;41;DIST17;D;Filler
+DIST18.wav;Apenas a casa está à venda.;42;DIST18;D;Filler
+DIST19.wav;O ladrão catava o lixo.;43;DIST19;D;Filler
+DIST20.wav;A mulher encontrava o ator.;44;DIST20;D;Filler
+DIST21.wav;Destranca o armário de madeira.;45;DIST21;D;Filler
+DIST22.wav;Eu evito sair de casa sem documento.;46;DIST22;D;Filler
+DIST23.wav;Não gostei do assunto sobre o qual o professor falou.;47;DIST23;D;Filler
+DIST24.wav;Marina brincava no parque.;48;DIST24;D;Filler
+DIST25.wav;Marina tirou o quadro da parede.;49;DIST25;D;Filler
+DIST26.wav;O gato arranhou a mão do vizinho.;50;DIST26;D;Filler
+DIST27.wav;Apenas o diretor estava no evento.;51;DIST27;D;Filler
+DIST28.wav;O empregado sujava a janela.;52;DIST28;D;Filler
+DIST29.wav;O jogo de voleibol acabou em briga.;53;DIST29;D;Filler
+DIST30.wav;A menina pulava corda com as amigas.;54;DIST30;D;Filler
+DIST31.wav;O pastor protestante ajudou o estofador no altar.;55;DIST31;D;Filler
+DIST32.wav;Renata jogava basquete com os amigos.;56;DIST32;D;Filler
+SB1.wav;O senador atacava o repórter.;1;SB1;E;Experimental
+OB2.wav;A diretora visitava a atriz.;2;OB2;E;Experimental
+SS3.wav;A cantora adorava o maestro.;3;SS3;E;Experimental
+OS4.wav;A vizinha procurava a criança.;4;OS4;E;Experimental
+SA5.wav;O caçador observava o guarda.;5;SA5;E;Experimental
+OA6.wav;O fazendeiro saudava o camponês.;6;OA6;E;Experimental
+SB7.wav;O dentista perturbava o cliente.;7;SB7;E;Experimental
+OB8.wav;O agente confrontava o detento.;8;OB8;E;Experimental
+SS9.wav;O editor detestava a modelo.;9;SS9;E;Experimental
+OS10.wav;O pedreiro olhava o encanador.;10;OS10;E;Experimental
+SA11.wav;O escritor subornava o músico.;11;SA11;E;Experimental
+OA12.wav;A cozinheira namorava o garçom.;12;OA12;E;Experimental
+SB13.wav;O zagueiro odiava o goleiro.;13;SB13;E;Experimental
+OB14.wav;O hóspede insultava o gerente.;14;OB14;E;Experimental
+SS15.wav;O técnico xingava o jogador.;15;SS15;E;Experimental
+OS16.wav;O ladrão intimidava o porteiro.;16;OS16;E;Experimental
+SA17.wav;O paciente chamava o médico.;17;SA17;E;Experimental
+OA18.wav;O pescador ajudava o feirante.;18;OA18;E;Experimental
+SB19.wav;O passageiro puxava o piloto.;19;SB19;E;Experimental
+OB20.wav;O promotor irritava o banqueiro.;20;OB20;E;Experimental
+SS21.wav;O artista inspirava o produtor.;21;SS21;E;Experimental
+OS22.wav;O prefeito amava a assistente.;22;OS22;E;Experimental
+SA23.wav;O aluno criticava o professor.;23;SA23;E;Experimental
+OA24.wav;O soldado exaltava o sargento.;24;OA24;E;Experimental
+DIST1.wav;O aluno tinha todos os livros.;25;DIST1;E;Filler
+DIST2.wav;A secretária escreveu a mensagem.;26;DIST2;E;Filler
+DIST3.wav;O contador disse que alguém faltou.;27;DIST3;E;Filler
+DIST4.wav;A bolsa será cortada se o aluno reprovar todas as disciplinas.;28;DIST4;E;Filler
+DIST5.wav;O novo cozinheiro comprou feijão.;29;DIST5;E;Filler
+DIST6.wav;A aluna escreve boas redações.;30;DIST6;E;Filler
+DIST7.wav;A filha é suspeita da morte da mãe.;31;DIST7;E;Filler
+DIST8.wav;Maria costurava meias.;32;DIST8;E;Filler
+DIST9.wav;Um navio brasileiro entrava na baía.;33;DIST9;E;Filler
+DIST10.wav;A professora estava doente.;34;DIST10;E;Filler
+DIST11.wav;O locutor anunciou algo no jornal da TV.;35;DIST11;E;Filler
+DIST12.wav;O policial viu o turista ontem.;36;DIST12;E;Filler
+DIST13.wav;O aluno abraçou o amigo.;37;DIST13;E;Filler
+DIST14.wav;O professor escreveu a tese.;38;DIST14;E;Filler
+DIST15.wav;A mãe fez um bolo.;39;DIST15;E;Filler
+DIST16.wav;O professor usava o computador.;40;DIST16;E;Filler
+DIST17.wav;A atriz perdeu o prêmio.;41;DIST17;E;Filler
+DIST18.wav;Apenas a casa está à venda.;42;DIST18;E;Filler
+DIST19.wav;O ladrão catava o lixo.;43;DIST19;E;Filler
+DIST20.wav;A mulher encontrava o ator.;44;DIST20;E;Filler
+DIST21.wav;Destranca o armário de madeira.;45;DIST21;E;Filler
+DIST22.wav;Eu evito sair de casa sem documento.;46;DIST22;E;Filler
+DIST23.wav;Não gostei do assunto sobre o qual o professor falou.;47;DIST23;E;Filler
+DIST24.wav;Marina brincava no parque.;48;DIST24;E;Filler
+DIST25.wav;Marina tirou o quadro da parede.;49;DIST25;E;Filler
+DIST26.wav;O gato arranhou a mão do vizinho.;50;DIST26;E;Filler
+DIST27.wav;Apenas o diretor estava no evento.;51;DIST27;E;Filler
+DIST28.wav;O empregado sujava a janela.;52;DIST28;E;Filler
+DIST29.wav;O jogo de voleibol acabou em briga.;53;DIST29;E;Filler
+DIST30.wav;A menina pulava corda com as amigas.;54;DIST30;E;Filler
+DIST31.wav;O pastor protestante ajudou o estofador no altar.;55;DIST31;E;Filler
+DIST32.wav;Renata jogava basquete com os amigos.;56;DIST32;E;Filler
+OB1.wav;O repórter atacava o senador.;1;OB1;F;Experimental
+SS2.wav;A atriz visitava a diretora.;2;SS2;F;Experimental
+OS3.wav;O maestro adorava a cantora.;3;OS3;F;Experimental
+SA4.wav;A criança procurava a vizinha.;4;SA4;F;Experimental
+OA5.wav;O guarda observava o caçador.;5;OA5;F;Experimental
+SB6.wav;O camponês saudava o fazendeiro.;6;SB6;F;Experimental
+OB7.wav;O cliente perturbava o dentista.;7;OB7;F;Experimental
+SS8.wav;O detento confrontava o agente.;8;SS8;F;Experimental
+OS9.wav;A modelo detestava o editor.;9;OS9;F;Experimental
+SA10.wav;O encanador olhava o pedreiro.;10;SA10;F;Experimental
+OA11.wav;O músico subornava o escritor.;11;OA11;F;Experimental
+SB12.wav;O garçom namorava a cozinheira.;12;SB12;F;Experimental
+OB13.wav;O goleiro odiava o zagueiro.;13;OB13;F;Experimental
+SS14.wav;O gerente insultava o hóspede.;14;SS14;F;Experimental
+OS15.wav;O jogador xingava o técnico.;15;OS15;F;Experimental
+SA16.wav;O porteiro intimidava o ladrão.;16;SA16;F;Experimental
+OA17.wav;O médico chamava o paciente.;17;OA17;F;Experimental
+SB18.wav;O feirante ajudava o pescador.;18;SB18;F;Experimental
+OB19.wav;O piloto puxava o passageiro.;19;OB19;F;Experimental
+SS20.wav;O banqueiro irritava o promotor.;20;SS20;F;Experimental
+OS21.wav;O produtor inspirava o artista.;21;OS21;F;Experimental
+SA22.wav;A assistente amava o prefeito.;22;SA22;F;Experimental
+OA23.wav;O professor criticava o aluno.;23;OA23;F;Experimental
+SB24.wav;O sargento exaltava o soldado.;24;SB24;F;Experimental
+DIST1.wav;O aluno tinha todos os livros.;25;DIST1;F;Filler
+DIST2.wav;A secretária escreveu a mensagem.;26;DIST2;F;Filler
+DIST3.wav;O contador disse que alguém faltou.;27;DIST3;F;Filler
+DIST4.wav;A bolsa será cortada se o aluno reprovar todas as disciplinas.;28;DIST4;F;Filler
+DIST5.wav;O novo cozinheiro comprou feijão.;29;DIST5;F;Filler
+DIST6.wav;A aluna escreve boas redações.;30;DIST6;F;Filler
+DIST7.wav;A filha é suspeita da morte da mãe.;31;DIST7;F;Filler
+DIST8.wav;Maria costurava meias.;32;DIST8;F;Filler
+DIST9.wav;Um navio brasileiro entrava na baía.;33;DIST9;F;Filler
+DIST10.wav;A professora estava doente.;34;DIST10;F;Filler
+DIST11.wav;O locutor anunciou algo no jornal da TV.;35;DIST11;F;Filler
+DIST12.wav;O policial viu o turista ontem.;36;DIST12;F;Filler
+DIST13.wav;O aluno abraçou o amigo.;37;DIST13;F;Filler
+DIST14.wav;O professor escreveu a tese.;38;DIST14;F;Filler
+DIST15.wav;A mãe fez um bolo.;39;DIST15;F;Filler
+DIST16.wav;O professor usava o computador.;40;DIST16;F;Filler
+DIST17.wav;A atriz perdeu o prêmio.;41;DIST17;F;Filler
+DIST18.wav;Apenas a casa está à venda.;42;DIST18;F;Filler
+DIST19.wav;O ladrão catava o lixo.;43;DIST19;F;Filler
+DIST20.wav;A mulher encontrava o ator.;44;DIST20;F;Filler
+DIST21.wav;Destranca o armário de madeira.;45;DIST21;F;Filler
+DIST22.wav;Eu evito sair de casa sem documento.;46;DIST22;F;Filler
+DIST23.wav;Não gostei do assunto sobre o qual o professor falou.;47;DIST23;F;Filler
+DIST24.wav;Marina brincava no parque.;48;DIST24;F;Filler
+DIST25.wav;Marina tirou o quadro da parede.;49;DIST25;F;Filler
+DIST26.wav;O gato arranhou a mão do vizinho.;50;DIST26;F;Filler
+DIST27.wav;Apenas o diretor estava no evento.;51;DIST27;F;Filler
+DIST28.wav;O empregado sujava a janela.;52;DIST28;F;Filler
+DIST29.wav;O jogo de voleibol acabou em briga.;53;DIST29;F;Filler
+DIST30.wav;A menina pulava corda com as amigas.;54;DIST30;F;Filler
+DIST31.wav;O pastor protestante ajudou o estofador no altar.;55;DIST31;F;Filler
+DIST32.wav;Renata jogava basquete com os amigos.;56;DIST32;F;Filler
